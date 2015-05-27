@@ -1,0 +1,12 @@
+﻿{
+  "Data": {
+        "DefaultConnection": { 
+            "ConnectionString": "Server=(localdb)\\mssqllocaldb;Database=SongManagerDB;Trusted_Connection=True;MultipleActiveResultSets=true"
+        }
+    },
+    "EntityFramework": {
+        "Context": {
+            "ConnectionStringKey": "Data:DefaultConnection:ConnectionString"
+        }
+    }
+}
